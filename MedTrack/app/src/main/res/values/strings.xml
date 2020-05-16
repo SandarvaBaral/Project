@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MedTrack</string>
+    <string name="email">Email:</string>
+    <string name="name">Name:</string>
+    <string name="weclome">Weclome</string>
+    <string name="appointment">Appointment</string>
+    <string name="medicine_search">Medicine Search</string>
+    <string name="patients">Patients</string>
+    <string name="emergency">Emergency</string>
+    <string name="reminder">Reminder</string>
+    <string name="button">Button</string>
+</resources>

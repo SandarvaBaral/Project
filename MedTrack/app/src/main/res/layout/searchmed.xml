@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="4dp"
+    android:layout_marginBottom="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="2dp"
+            app:srcCompat="@android:drawable/sym_def_app_icon" />
+
+        <TextView
+            android:id="@+id/medName"
+            android:layout_marginStart="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medicine Name"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@id/imageView4"/>
+
+        <TextView
+            android:id="@+id/medManufacturer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="Manufacturer"
+            android:textSize="15dp"
+            android:layout_below="@id/medName"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@id/imageView4"/>
+
+        <TextView
+            android:id="@+id/medDescrip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="Description"
+            android:textSize="15dp"
+            android:layout_below="@id/medManufacturer"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@id/imageView4"/>
+
+        <TextView
+            android:id="@+id/medShape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="Shape"
+            android:textSize="15dp"
+            android:layout_below="@id/medDescrip"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@id/imageView4"/>
+
+        <TextView
+            android:id="@+id/medDosage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="Dosage"
+            android:textSize="15dp"
+            android:layout_below="@id/medShape"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@id/imageView4"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

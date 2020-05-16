@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "316265480093",
+    "firebase_url": "https://med-track-8f45a.firebaseio.com",
+    "project_id": "med-track-8f45a",
+    "storage_bucket": "med-track-8f45a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316265480093:android:6d0e6b7860a51e89217974",
+        "android_client_info": {
+          "package_name": "com.sandarva.medtrack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316265480093-gf0lp3gcjaunppbsktfe3uupsjcr7npd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sandarva.medtrack",
+            "certificate_hash": "4ab1898996b366289c57339f2573e44d18452554"
+          }
+        },
+        {
+          "client_id": "316265480093-1pn2g5kq40qi8mvk4sd07t488o8fnq2r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_afVUuCnyXuXkxxrIXgllqM_HsPnKzJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "316265480093-1pn2g5kq40qi8mvk4sd07t488o8fnq2r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
